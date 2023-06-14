@@ -1,8 +1,5 @@
 "use strict";
 
-// locationData.js
-// This script contains data for the park locations
-
 // Array of park locations
 var locations = [
     "Alabama",
@@ -63,8 +60,7 @@ var locations = [
     
   ];
   
-  // parkTypeData.js
-  // This script contains data for park types
+ 
   
   // Array of park types
   var parkTypes = [
@@ -84,14 +80,13 @@ var locations = [
     
   ];
   
-  // nationalParkData.js
-  // This script contains data for national parks
+
   
   // Array of national park objects
   var parks = [
     {
       name: "Abraham Lincoln Birthplace National Historical Park",
-      location: "Kentuky, Hogenville, 42748",
+      location: "Kentucky, Hogenville, 42748",
       type: "National Park",
       address: "2995 Lincoln Farm Road",
       info:"(270) 358-3137",
@@ -217,7 +212,7 @@ var locations = [
       },
       {
         name: "Abraham Lincoln Birthplace National Historical Park",
-        location: "Kentuky, Hogenville, 42748",
+        location: "Kentucky, Hogenville, 42748",
         type: "National Park",
         address: "Yellowstone National Park, WY 82190, USA",
         info:"(270) 358-3137",
