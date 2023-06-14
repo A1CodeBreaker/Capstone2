@@ -1,8 +1,5 @@
 "use strict";
 
-// mountainData.js
-// This script contains data for the mountains
-
 // Array of mountain objects
 var mountains = [
     {
@@ -34,7 +31,7 @@ var mountains = [
         image: "Madison-StoryImage_2.jpg",
       },
       {
-        name: "Mt. Madiso",
+        name: "Mt. Madison",
         elevation: 5366,
         effort: "Strenuous",
         location: "New Hampshire",
