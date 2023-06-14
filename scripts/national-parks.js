@@ -163,7 +163,7 @@ var locations = [
       },
       {
         name: "Abraham Lincoln Birthplace National Historical Park",
-        location: "Kentuky, Hogenville, 42748",
+        location: "Kentucky, Hogenville, 42748",
         type: "National Park",
         address: "Yellowstone National Park, WY 82190, USA",
         info:"(270) 358-3137",
@@ -282,10 +282,8 @@ var locations = [
       },
   ];
   
-  // national-parks.js
-  // This script handles the park selection and display
-  
-  // Get the location selector element
+
+  // the location selector element
   var locationSelector = document.getElementById("locationSelector");
   
   // Populate the location selector
@@ -326,7 +324,7 @@ var locations = [
       );
     });
   
-    // Create table rows
+    // table rows
     for (var i = 0; i < filteredParks.length; i++) {
       var park = filteredParks[i];
   
